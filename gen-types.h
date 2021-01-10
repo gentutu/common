@@ -117,9 +117,17 @@ typedef unsigned         char    bool; //                          0 ...        
 
 typedef enum statusTypeTag
 {
-    OK,
-    NOK
+    OK = 0,
+    NOK,
+    FEATURE_DISABLED
 } statusType;
+
+
+typedef enum stateTypeTag
+{
+    INIT = 0,
+    DEINIT
+} stateType;
 
 //======================================================================================================================
 // END OF FILE

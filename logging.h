@@ -9,14 +9,14 @@
 // system includes
 #include <stdio.h>
 
-// dependency includes
+// generic includes
 #include "gen-types.h"
 
 //======================================================================================================================
 // DEFINES
 //======================================================================================================================
 #define ENABLE_DEBUG     ON  // disable to remove prints all and reduce file size
-#define ENABLE_VERBOSITY OFF // enable if for console spam
+#define ENABLE_VERBOSITY OFF // enable for console spam
 
 #if(TRUE == ENABLE_DEBUG)
     #define PRINT_OKAY(...) \
